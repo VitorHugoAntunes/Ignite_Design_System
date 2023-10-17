@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/vitorhugoantunes.png',
     alt: 'Vitor Hugo Antunes',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
