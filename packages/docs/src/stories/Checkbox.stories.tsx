@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui/react'
-
+import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui-4ntunes/react'
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
