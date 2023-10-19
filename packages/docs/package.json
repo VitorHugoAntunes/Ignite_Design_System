@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "build": "storybook build",
     "dev": "storybook dev -p 6006",
-    "deploy-storybook": "storybook-to-ghpages"
+    "storybook:publish": "touch ./storybook-static/.nojekyll && gh-pages -d ./storybook-static -t true"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
