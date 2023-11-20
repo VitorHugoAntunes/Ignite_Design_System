@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps } from '../types/ComponentProps'
 import { styled } from '../styles'
 
 export const Box = styled('div', {

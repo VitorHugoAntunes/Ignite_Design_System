@@ -1,4 +1,5 @@
-import { ComponentProps, ElementType } from 'react'
+import { ElementType } from 'react'
+import { ComponentProps } from '../types/ComponentProps'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
@@ -92,8 +93,6 @@ export const Button = styled('button', {
   },
 })
 
-export interface ButtonProps extends ComponentProps<typeof Button> {
-  as?: ElementType
-}
+export type ButtonProps = ComponentProps<typeof Button>
 
 Button.displayName = 'Button'

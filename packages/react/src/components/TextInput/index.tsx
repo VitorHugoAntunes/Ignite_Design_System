@@ -1,5 +1,6 @@
-import { ComponentProps, ElementRef, forwardRef } from 'react'
+import { ElementRef, forwardRef } from 'react'
 import { Input, Prefix, TextInputContainer } from './styles'
+import { ComponentProps } from '../../types/ComponentProps'
 
 export interface TextInputProps
   extends Omit<ComponentProps<typeof Input>, 'size'> {
